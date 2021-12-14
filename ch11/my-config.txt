@@ -1,0 +1,3 @@
+# Sample config file for application
+parameter1 = hello-mother
+parameter2 = hello-father

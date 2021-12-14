@@ -1,0 +1,12 @@
+apiVersion: v1
+data:
+  another-param: another-value
+  extra-param: extra-value
+  my-config.txt: |-
+    # Sample config file for application
+    parameter1 = hello-mother
+    parameter2 = hello-father
+kind: ConfigMap
+metadata:
+  name: my-config
+  namespace: default  
